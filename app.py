@@ -29,7 +29,8 @@ def callback():
     else :
         sendText(user,'ว่าใงน้ะ')
     return '',200
-  def sendText(user, text):
+  
+    def sendText(user, text):
   LINE_API = 'https://api.line.me/v2/bot/message/reply'
   headers = {
     'Content-Type': 'application/json; charset=UTF-8',
